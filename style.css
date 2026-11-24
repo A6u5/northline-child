@@ -1,5 +1,11 @@
 /*
 Theme Name: Northline Child
 Template: storefront
-Version: 1.0.0
+Version: 1.0.3
 */
+
+/* A1: struck-through sale prices were too light (opacity .65 on #6d6d6d).
+   Opacity removed so the text reaches WCAG AA contrast (4.5:1). */
+.price del{
+	opacity: 1 !important;
+}
